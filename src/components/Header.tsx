@@ -62,9 +62,9 @@ export const Header: React.FC<HeaderProps> = ({
               }`}
             >
               <span>🌅</span>
-              <span>새해 명절 음식</span>
+              <span>1부 새해 음식</span>
               <span className="text-[11px] px-1.5 py-0.2 rounded-full bg-amber-100 text-amber-800">
-                1~7
+                1~11
               </span>
             </button>
             <button
@@ -77,9 +77,9 @@ export const Header: React.FC<HeaderProps> = ({
               }`}
             >
               <span>🌾</span>
-              <span>추수 명절 음식</span>
+              <span>2부 추수 명절 음식</span>
               <span className="text-[11px] px-1.5 py-0.2 rounded-full bg-emerald-100 text-emerald-800">
-                8~12
+                12~17
               </span>
             </button>
           </div>

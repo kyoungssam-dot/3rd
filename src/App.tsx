@@ -35,14 +35,18 @@ export default function App() {
     };
   }, []);
 
+  // Boundary indices
+  const firstHarvestIndex = HOLIDAY_FOODS.findIndex((f) => f.category === 'harvest');
+  const lastNewYearIndex = firstHarvestIndex > 0 ? firstHarvestIndex - 1 : 0;
+
   // Stop speech when changing food page
   const changeFoodIndex = useCallback(
     (newIndex: number) => {
       if (newIndex < 0 || newIndex >= HOLIDAY_FOODS.length) return;
       speechManager.stop();
 
-      // Show notice if moving from 6 (last New Year food) to 7 (first Harvest food)
-      if (currentIndex === 6 && newIndex === 7) {
+      // Show notice if moving from last New Year food to first Harvest food
+      if (currentIndex === lastNewYearIndex && newIndex === firstHarvestIndex) {
         setShowCategoryTransitionNotice(true);
       } else {
         setShowCategoryTransitionNotice(false);
@@ -51,7 +55,7 @@ export default function App() {
       setCurrentIndex(newIndex);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     },
-    [currentIndex]
+    [currentIndex, lastNewYearIndex, firstHarvestIndex]
   );
 
   // Keyboard navigation (Left / Right arrow keys)
@@ -77,7 +81,7 @@ export default function App() {
     if (category === 'new_year') {
       changeFoodIndex(0);
     } else {
-      changeFoodIndex(7); // First harvest food (송편)
+      changeFoodIndex(firstHarvestIndex);
     }
   };
 
