@@ -1,0 +1,6 @@
+{
+  "name": "세계의 명절 음식 탐험",
+  "description": "초등 3학년 학생들을 위한 세계 여러 나라의 새해와 추수 명절 전통 음식 이야기 책",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
