@@ -10,7 +10,7 @@ import dutchOliebollenImg from '../assets/images/dutch_oliebollen_1789450880100.
 import usHoppinJohnImg from '../assets/images/us_hoppin_john_1789450899015.jpg';
 import spainGrapesImg from '../assets/images/spain_grapes_1789451001715.jpg';
 import greeceVasilopitaImg from '../assets/images/vasilopita_2026_1789451731009.jpg';
-import italyCotechinoImg from '../assets/images/italy_cotechino_1789451025922.jpg';
+import russianNewYearFeastImg from '../assets/images/russian_newyear_feast_1789547335458.jpg';
 
 import koreanSongpyeonImg from '../assets/images/korean_songpyeon_1789450915723.jpg';
 import thanksgivingFeastImg from '../assets/images/thanksgiving_feast_1789450932814.jpg';
@@ -363,37 +363,37 @@ export const HOLIDAY_FOODS: HolidayFood[] = [
     }
   },
   {
-    id: 'italy-cotechino',
+    id: 'russia-new-year-feast',
     category: 'new_year',
     orderNumber: 11,
-    countryName: '이탈리아',
-    countryCode: 'IT',
-    flagEmoji: '🇮🇹',
-    continent: '유럽',
-    holidayName: '카포단노 (1월 1일 새해 첫날)',
-    holidayDateInfo: '새해를 맞이하는 이탈리아의 활기찬 축제',
-    foodName: '코테키노 콘 렌티키에',
-    foodOriginalName: 'Cotechino con lenticchie',
-    pronunciation: '코-테-키-노 콘 렌-티-키-에 (렌틸콩과 돼지고기 요리)',
-    imageUrl: italyCotechinoImg,
-    imageCaption: '동전을 닮은 렌틸콩을 듬뿍 깔고 썰어 올린 이탈리아의 새해 음식',
-    summaryHeadline: '"동글납작한 렌틸콩은 금화, 돼지고기는 풍요의 상징!"',
+    countryName: '러시아',
+    countryCode: 'RU',
+    flagEmoji: '🇷🇺',
+    continent: '유럽·아시아',
+    holidayName: '노븨 고트 (1월 1일 새해 축제)',
+    holidayDateInfo: '온 가족이 둘러앉아 새해 카운트다운을 함께하는 러시아 최대의 축제',
+    foodName: '올리비에 샐러드와 할라뎨츠',
+    foodOriginalName: 'Салат Оливье & Холодец',
+    pronunciation: '살-라트 올-리-비-예 & 홀-로-데츠 (할-라-뎨-츠)',
+    imageUrl: russianNewYearFeastImg,
+    imageCaption: '러시아 새해 식탁에 나란히 오르는 고소한 올리비에 샐러드와 투명하고 영양 가득한 고기 젤리 할라뎨츠',
+    summaryHeadline: '"새해의 화목과 풍요를 비는 올리비에 샐러드 & 단단한 건강과 복을 비는 고기 젤리 할라뎨츠!"',
     reasons: [
-      '이탈리아 사람들은 12월 31일 밤부터 1월 1일 새해 식탁에 렌틸콩과 큼직한 돼지고기 소시지 요리를 올려요.',
-      '작고 둥글넓적한 ‘렌틸콩’은 옛날 로마 시대의 동전(금화)과 아주 비슷하게 생겼어요. 물에 삶으면 콩이 통통하게 부풀어 오르는데, 이것은 돈이 점점 불어난다는 뜻이에요!',
-      '그래서 렌틸콩을 많이 먹으면 새해에 돈을 많이 벌고 부자가 된다고 여겼답니다.',
-      '또 돼지는 앞만 보고 땅을 파헤치며 나아가는 동물이라, 후퇴하지 않고 미래를 향해 풍성하게 나아가는 ‘풍요’를 상징해요.'
+      '러시아에서 1년 중 가장 손꼽아 기다리는 최대 명절은 바로 1월 1일 새해를 축하하는 ‘노븨 고트(Новый Год)’예요.',
+      '러시아 새해 식탁에는 언제나 두 가지 대표 음식이 나란히 올라요. 바로 ‘올리비에 샐러드’와 ‘할라뎨츠(고기 젤리)’랍니다.',
+      '🥗 [올리비에 샐러드]: 삶은 감자, 당근, 달걀, 햄, 완두콩, 오이피클을 깍둑썰기해 고소한 마요네즈에 버무려요. "올리비에 없는 새해 식탁은 트리가 없는 연말과 같다"고 할 만큼 온 국민이 사랑하며, 다양한 재료가 맛있게 섞이듯 새해에 온 가족이 화목하고 풍요롭게 어울리길 소원해요.',
+      '🍖 [할라뎨츠]: 고기를 뼈째로 6~8시간 푹 고아낸 뒤 겨울 추위에 차갑게 굳혀 푸딩(젤리)처럼 썰어 먹는 전통 보양식이에요. 정성을 다해 단단히 굳히는 과정처럼, 새해에 가족들의 건강이 바위처럼 튼튼하고 복이 굳건하게 머물기를 기원해요.'
     ],
     keySymbols: [
-      { badge: '불어나는 재물', title: '부풀어 오르는 렌틸콩', desc: '동전 모양 콩이 불어나듯 재산과 행복이 쑥쑥 커져요.' },
-      { badge: '풍요와 전진', title: '돼지고기 소시지', desc: '앞으로 씩씩하게 나아가며 먹을 것이 넘쳐나길 바라요.' },
-      { badge: '따뜻한 영양', title: '단백질 가득', desc: '추운 겨울 온 가족이 든든하게 힘을 내요.' }
+      { badge: '화합과 풍요', title: '올리비에 샐러드', desc: '다채로운 오색 재료가 어우러져 새해 가정의 조화와 풍요를 상징해요.' },
+      { badge: '단단한 건강', title: '할라뎨츠 고기 젤리', desc: '정성으로 푹 고아 굳히며 새해 가족의 무병장수와 튼튼한 복을 빌어요.' },
+      { badge: '지혜로운 식문화', title: '추위를 이기는 만찬', desc: '러시아의 매서운 겨울 추위를 이용해 굳히고 든든한 영양을 채워요.' }
     ],
-    funFact: '이탈리아 사람들은 새해 전날 빨간색 속옷을 입고 렌틸콩을 먹으면 행운이 두 배가 된다고 믿는 귀여운 미신도 있답니다!',
+    funFact: '러시아 사람들은 12월 31일 밤 11시 55분에 올리비에 샐러드와 할라뎨츠가 차려진 식탁에 둘러앉아, 모스크바 붉은광장의 시계탑 종소리가 12번 울리는 순간 새해 카운트다운을 외친답니다!',
     greetingPhrase: {
-      original: 'Buon Anno!',
-      pronunciation: '부온 안노!',
-      meaning: '좋은 새해를 보내세요!'
+      original: 'С Новым Годом!',
+      pronunciation: '스 노븜 고듬!',
+      meaning: '행복하고 번창하는 새해 되세요!'
     }
   },
 
@@ -426,7 +426,7 @@ export const HOLIDAY_FOODS: HolidayFood[] = [
       { badge: '수확의 감사', title: '햅쌀과 햇곡식', desc: '새로 거둔 깨, 콩, 밤으로 자연의 풍요에 감사드려요.' },
       { badge: '조상의 지혜', title: '향긋한 솔잎', desc: '솔잎 향을 입히고 떡이 상하지 않게 돕는 과학적 지혜예요.' }
     ],
-    funFact: '옛날 어른들은 "송편을 예쁘게 빚으면 나중에 예쁜 딸이나 멋진 아이를 낳고, 솜씨 좋은 사람이 된다"고 하셔서 아이들이 정성을 다해 빚었답니다!',
+    funFact: '옛날 어른들은 "송편을 예쁘게 빚으면 나중에 예쁜 딸이나 멋진 아이를낳고, 솜씨 좋은 사람이 된다"고 하셔서 아이들이 정성을 다해 빚었답니다!',
     greetingPhrase: {
       original: '풍성한 한가위 보내세요!',
       pronunciation: 'Pungseonghan Hangawi bonaeseyo!',
@@ -676,5 +676,13 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     correctIndex: 3,
     explanation: '음력 15일 밤의 보름달을 상징하여 총 15개의 하얀 쌀 경단을 피라미드 모양으로 쌓아 달에 감사 기도를 드려요.',
     foodId: 'japan-tsukimi-dango'
+  },
+  {
+    id: 8,
+    question: '러시아의 새해 축제 "노븨 고트"에서 고기를 푹 고아 차갑게 굳혀 푸딩이나 젤리처럼 썰어 먹는 전통 음식의 이름은 무엇일까요?',
+    options: ['할라뎨츠', '마카롱', '초콜릿 퐁듀', '바게트'],
+    correctIndex: 0,
+    explanation: '할라뎨츠(Kholodets)는 겨울의 차가운 온도를 이용해 인공 젤라틴 없이 천연 고기 육수를 탱글탱글하게 굳힌 러시아의 대표적인 새해 음식이에요!',
+    foodId: 'russia-new-year-feast'
   }
 ];
