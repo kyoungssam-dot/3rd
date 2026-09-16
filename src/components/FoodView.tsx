@@ -244,12 +244,12 @@ export const FoodView: React.FC<FoodViewProps> = ({
               </div>
             </div>
 
-            {/* 3rd Grader Curious Fact Box (돋보기 상식) */}
+            {/* Curious Fact Box (돋보기 상식) */}
             <div className="bg-gradient-to-br from-orange-50 to-amber-50 p-6 sm:p-7 rounded-3xl border-2 border-orange-200/90 shadow-2xs">
               <div className="flex items-center gap-2.5 mb-3">
                 <span className="text-2xl sm:text-3xl">🔍</span>
                 <h4 className="text-base sm:text-lg lg:text-xl font-extrabold text-orange-950">
-                  알고 나면 더 재미있는 3학년 돋보기 상식!
+                  알고 나면 더 재미있는 돋보기 상식!
                 </h4>
               </div>
               <p className={`text-stone-800 leading-relaxed font-medium ${isLargeFont ? 'text-lg sm:text-xl' : 'text-base sm:text-lg'}`}>
